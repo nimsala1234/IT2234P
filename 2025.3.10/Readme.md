@@ -13,13 +13,13 @@ In this lesson, we covered:
 
 | File Name   | Code Explanation | Output Screenshot |
 |------------|-----------------|------------------|
-| [`helloworld.js`](./helloworld.js) | Printing "Hello, World!" using `console.log()` | ![Hello World](./hello_output.png) |
-| [`arithmeticOperations.js`](./arithmeticOperations.js) | Performing basic arithmetic operations (`+`, `-`, `*`, `/`) and printing results | ![Arithmetic](./arithmetic_output.png) |
-| [`question_1.js`](./question_1.js) | Printing numbers from 1 to 10 using a `for` loop | ![Counting](./counting_output.png) |
-| [`question_2.js`](./question_2.js) | Printing odd numbers from 1 to 10 using an `if` condition inside a loop | ![Odd Numbers](./odd_numbers_output.png) |
-| [`question_3.js`](./question_3.js) | Printing numbers in reverse order (10 to 1) | ![Reverse Order](./reverse_order_output.png) |
-| [`question_4.js`](./question_4.js) | Printing numbers in a left-right reversed pattern (Ex: 4321-5-9876) | ![Special Pattern](./special_pattern_output.png) |
+| [`helloworld.js`](./Codes/helloworld.js) | Printing "Hello, World!" using `console.log()` | ![Hello World](./Outputs/helloworld.png) |
+| [`arithmeticOperations.js`](./Codes/arithmeticOperations.js) | Performing basic arithmetic operations (`+`, `-`, `*`, `/`) and printing results | ![Arithmetic](./Outputs/arithmeticOperations.png) |
+| [`question_1.js`](./Codes/question_1.js) | Printing numbers from 1 to 10 using a `for` loop | ![Counting](./Outputs/question_1.png) |
+| [`question_2.js`](./Codes/question_2.js) | Printing odd numbers from 1 to 10 using an `if` condition inside a loop | ![Odd Numbers](./Outputs/question_2.png) |
+| [`question_3.js`](./Codes/question_3.js) | Printing numbers in reverse order (10 to 1) | ![Reverse Order](./Outputs/question_3.png) |
+| [`question_4.js`](./Codes/question_4.js) | Printing numbers in a left-right reversed pattern (Ex: 4321-5-9876) | ![Special Pattern](./Outputs/question_4.png) |
 
 ---
-⏭️ [Next Lesson: 2025-03-11](../2025-03-11/)
+
 
