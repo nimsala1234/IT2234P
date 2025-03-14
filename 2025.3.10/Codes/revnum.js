@@ -6,7 +6,7 @@ let start=1
 let end=num
 let tend=end
 
-while(start<end){
+while(start<=end){
 	if(tmid>0){
 		console.log(tmid)
 		tmid--
