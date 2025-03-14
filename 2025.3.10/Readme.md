@@ -19,6 +19,7 @@ In this lesson, we covered:
 | [`question_2.js`](./Codes/question_2.js) | Printing odd numbers from 1 to 10 using an `if` condition inside a loop | ![Odd Numbers](./Outputs/question_2.png) |
 | [`question_3.js`](./Codes/question_3.js) | Printing numbers in reverse order (10 to 1) | ![Reverse Order](./Outputs/question_3.png) |
 | [`question_4.js`](./Codes/question_4.js) | Printing numbers in a left-right reversed pattern (Ex: 4321-5-9876) | ![Special Pattern](./Outputs/question_4.png) |
+| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 4321-5-9876) | ![Special Pattern](./Outputs/revnum.png) |
 
 ---
 
