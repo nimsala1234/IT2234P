@@ -24,32 +24,21 @@ In this lesson, we covered:
 
 | File Name   | Code Explanation | Output Screenshot |
 |------------|-----------------|------------------|
-| [`SimpleArrayPrint.js`](./Codes/SimpleArrayPrint.js) | PPrinting a simple array with console.log() | ![Array Print](./Outputs/SimpleArrayPrint.png) |
-simpleArray.js	
-loopThroughArray.js	Accessing array elements using for and forEach loops	
-nestedLoops.js	Using nested loops to iterate through multi-dimensional arrays	
-arrayOperations.js	Performing operations like push(), pop(), and reversing an array	
-commonElements.js	Finding common elements between two arrays	
-frequentElement.js	Finding the most frequent element in an array	
-sumOfElements.js	Calculating the sum of all elements in an array	
-targetSum.js	Finding pairs of numbers that add up to a target sum	
-maxSum.js	Finding the maximum sum of a subarray	
-jsonHandling.js	Parsing and accessing JSON data	
-jsonArrayExercise.js	Working with JSON arrays and performing operations on them	
-
-
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-| [`revnum.js`](./Codes/revnum.js) | Printing number
-
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |s in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
-
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
+| [`SimpleArrayPrint.js`](./Codes/SimpleArrayPrint.js) | Printing a simple array with console.log() | ![Array Print](./Outputs/SimpleArrayPrint.png) |
+| [`stringArray.js`](./Codes/stringArray.js) | String Array | ![String Array](./Outputs/stringArray.png) |	
+| [`charArray.js`](./Codes/charArray.js) | Char Array | ![Char Array](./Outputs/charArray.png) |
+| [`NumArray.js`](./Codes/NumArray.js) | Num Array | ![Num Array](./Outputs/NumArray.png) |
+| [`printArrayElements.js`](./Codes/printArrayElements.js) | Accessing array elements using for and forEach loops | ![Print Array Elements](./Outputs/printArrayElements.png) |	
+| [`maxNum.js`](./Codes/maxNum.js) | Find the maximum no in an array | ![Max Num](./Outputs/maxNum.png) |	
+| [`nestedArray.js`](./Codes/nestedArray.js) | Using nested loops to iterate through multi-dimensional arrays | ![Nested Array](./Outputs/nestedArray.png) |	
+| [`findCommonElements.js`](./Codes/findCommonElements.js) | Finding common elements between two arrays	 | ![Common Elements](./Outputs/findCommonElements.png) |	
+| [`targetSum.js`](./Codes/targetSum.js) | Finding pairs of numbers that add up to a target sum | ![Target Sum](./Outputs/targetSum.png)|	
+| [`frequentElement.js`](./Codes/frequentElement.js) | Finding the most frequent element in an array | ![Frequent Element](./Outputs/frequentElement.png) |
+| [`arrayOperations.js`](./Codes/arrayOperations.js) | Performing operations like push() and pop() | ![Array Operations](./Outputs/arrayOperations.png) |
+| [`reverseArray.js`](./Codes/reverseArray.js) | Reversing an array using push() & pop()| ![Reverse Array](./Outputs/reverseArray.png) |
+| [`JSON.js`](./Codes/JSON.js) | Parsing and accessing JSON data | ![JSON](./Outputs/JSON.png) |
+| [`JSONArray.js`](./Codes/JSONArray.js) | Array of JSON data | ![JSON Array](./Outputs/JSON.png) |
+| [`JsonArrayExercise.js`](./Codes/JsonArrayExercise.js) | Working with JSON arrays and performing operations on them	 | ![JSON Array](./Outputs/JsonArrayExercise.png) |
 
 ---
 
