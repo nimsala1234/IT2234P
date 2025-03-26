@@ -24,7 +24,8 @@ In this lesson, we covered:
 
 | File Name   | Code Explanation | Output Screenshot |
 |------------|-----------------|------------------|
-simpleArray.js	Printing a simple array with console.log()	
+| [`SimpleArrayPrint.js`](./Codes/SimpleArrayPrint.js) | PPrinting a simple array with console.log() | ![Array Print](./Outputs/SimpleArrayPrint.png) |
+simpleArray.js	
 loopThroughArray.js	Accessing array elements using for and forEach loops	
 nestedLoops.js	Using nested loops to iterate through multi-dimensional arrays	
 arrayOperations.js	Performing operations like push(), pop(), and reversing an array	
@@ -35,7 +36,7 @@ targetSum.js	Finding pairs of numbers that add up to a target sum
 maxSum.js	Finding the maximum sum of a subarray	
 jsonHandling.js	Parsing and accessing JSON data	
 jsonArrayExercise.js	Working with JSON arrays and performing operations on them	
-| [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
+
 
 | [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
 | [`revnum.js`](./Codes/revnum.js) | Printing numbers in a up-down reversed pattern towards a mid number (Ex: 87654321-9-17 16 15 14 13 12 11 10) | ![Special Pattern](./Outputs/revnum.png) |
