@@ -26,7 +26,7 @@ In this lesson, we covered:
 |------------|-----------------|------------------|
 | [`SimpleArrayPrint.js`](./Codes/SimpleArrayPrint.js) | Printing a simple array with console.log() | ![Array Print](./Outputs/SimpleArrayPrint.png) |
 | [`stringArray.js`](./Codes/stringArray.js) | String Array | ![String Array](./Outputs/stringArray.png) |	
-| [`charArray.js`](./Codes/charArray.js) | Char Array | ![Char Array](./Outputs/charArray.png) |
+| [`charArray.js`](./Codes/charArray.js) | Char Array | ![Char Array](./Outputs/charArray..png) |
 | [`NumArray.js`](./Codes/NumArray.js) | Num Array | ![Num Array](./Outputs/NumArray.png) |
 | [`printArrayElements.js`](./Codes/printArrayElements.js) | Accessing array elements using for and forEach loops | ![Print Array Elements](./Outputs/printArrayElements.png) |	
 | [`maxNum.js`](./Codes/maxNum.js) | Find the maximum no in an array | ![Max Num](./Outputs/maxNum.png) |	
