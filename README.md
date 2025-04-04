@@ -9,3 +9,4 @@ Each day's folder includes code files and output screenshots.
 | 2025-03-10 | JavaScript Basics: Console Output, Arithmetic Operations, Loops, and Number Sequences | [Day 1](./2025.3.10/) |
 | 2025-03-17 | Arrays: String, Num, Char Arrays, Nested Arrays, Accessing Elements of array, jSON | [Day 2](./2025.3.17/) |
 | 2025-03-19 | Functions: Basics, Return, Arrow, Parameters, Exercises | [Day 3](./2025.3.19/) |
+| 2025-03-20 | Intro to Node.js & Create a simple web server , Create a simple web server with Express.js| [Day 4](./2025.3.20/) |
