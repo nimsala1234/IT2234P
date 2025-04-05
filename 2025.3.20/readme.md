@@ -17,7 +17,7 @@ In this lesson, we covered:
 
 | File Name               | Code Explanation                                | Output Screenshot |
 |------------------------|--------------------------------------------------|-------------------|
-| [`server.js`](./Codes/server.js)       | Basic Node.js server using the `http` module       | ![Node Server](./Outputs/server.png) |
+| [`server.js`](./Codes/server.js)       | Basic Node.js server using the `http` module       | ![Node Server](./Outputs/server.png) ![Node Server](./Outputs/serverRun.png)  |
 | [`express_server.js`](./express_server.js) | Simple Express.js server with route handling       | ![Express Server](./express_server_output.png) |
 
 ---
