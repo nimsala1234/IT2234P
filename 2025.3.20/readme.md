@@ -18,6 +18,6 @@ In this lesson, we covered:
 | File Name               | Code Explanation                                | Output Screenshot |
 |------------------------|--------------------------------------------------|-------------------|
 | [`server.js`](./Codes/server.js)       | Basic Node.js server using the `http` module       | ![Node Server](./Outputs/server.png) ![Node Server](./Outputs/serverRun.png)  |
-| [`express_server.js`](./express_server.js) | Simple Express.js server with route handling       | ![Express Server](./express_server_output.png) |
+| [`express.js`](./Codes/app.js) | Simple Express.js server with route handling       | ![Express Server](./Outputs/expressjs.png) ![Express Server](./Outputs/files.png) ![Express Server](./Outputs/express2.png) ![Express Server](./Outputs/express3.png) ![Express Server](./Outputs/outexpress1.png) ![Express Server](./Outputs/expressout2.png)|
 
 ---
