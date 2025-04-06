@@ -25,7 +25,7 @@ In this lesson, we built an Express.js server that works with a student database
 
 | File Name                | Code Explanation                                      | Output Screenshot         |
 |-------------------------|-------------------------------------------------------|---------------------------|
-| [`studentsdb.js`](./Codes/studentsdb.js) | Contains an array of student JSON objects                     | ![DB Screenshot](./Outputs/db_output.png)       |
-| [`app.js`](./Codes/app.js)     | Express.js server to serve student data through APIs | ![App Screenshot](./Outputs/app_output.png) |
+| [`studentsdb.js`](./Codes/studentsdb.js) | Contains an array of student JSON objects| ![DB Screenshot](./Outputs/2.png) ![DB Screenshot](./Outputs/3.png)        |
+| [`app.js`](./Codes/app.js) | Express.js server to serve student data through APIs| ![App Screenshot](./Outputs/serverRun.png) ![App Screenshot](./Outputs/1.png) ![App Screenshot](./Outputs/2.png) ![App Screenshot](./Outputs/3.png) ![App Screenshot](./Outputs/4.png) ![App Screenshot](./Outputs/5.png) ![App Screenshot](./Outputs/6.png) ![App Screenshot](./Outputs/7.png) |
 
 ---
