@@ -21,22 +21,22 @@ In this lesson, we built an Express.js server that works with a student database
   - Basic error handling (404 response when student not found)  
   - Dynamic route parameters in Express.js
 
-🔌 API Endpoints
-🌍 GET /
+# 🔌 API Endpoints
+## 🌍 GET /
 Description: Welcome endpoint
 Response: Hello IT Students
-📚 GET /stu
+## 📚 GET /stu
 Description: Returns a list of all students.
 Response: A JSON array of student objects.
-🆔 GET /stu/:id
+## 🆔 GET /stu/:id
 Description: Find a student by registration number.
 Example: /stu/2021ICT47
 Response: The student data matching the registration number, or a "Student not found" message.
-🚻 GET /stu/gender/:gen
+## 🚻 GET /stu/gender/:gen
 Description: Filter students by gender.
 Example: /stu/gender/female
 Response: A list of students matching the gender.
-👤 GET /stu/name/:name
+## 👤 GET /stu/name/:name
 Description: Search for a student by name.
 Example: /stu/name/Emily
 Response: The student data matching the name.
