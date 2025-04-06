@@ -30,7 +30,7 @@ Description: Returns a list of all students.
 Response: A JSON array of student objects.
 ## 🆔 GET /stu/:id
 Description: Find a student by registration number.
-Example: /stu/2021ICT47
+Example: /stu/2021ICT78
 Response: The student data matching the registration number, or a "Student not found" message.
 ## 🚻 GET /stu/gender/:gen
 Description: Filter students by gender.
