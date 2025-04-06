@@ -44,5 +44,3 @@ app.get('/stu/name/:name', (req,res)=>{
 app.listen(port,()=>{
     console.log(`server is running on ${port}`);
 })
-
-//to run node .\app.js
