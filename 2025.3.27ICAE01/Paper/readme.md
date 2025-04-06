@@ -1,2 +1,1 @@
-Here's the ICAE paper.
-📄 [View ICAE01 Paper](./Paper.pdf)
+The ICAE 01 Paper
