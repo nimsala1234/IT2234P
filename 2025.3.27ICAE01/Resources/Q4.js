@@ -22,3 +22,4 @@ function HexSWC(decimal) {
     
     return hex;
 }
+module.exports=HexSWC;
