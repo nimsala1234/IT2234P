@@ -1,15 +1,12 @@
-# 📅 2025-03-27 - ICAE 01
+# 📅 2025-04-07 - Assignment 01
 
-Here's the ICAE paper.
-📄 [View ICAE01 Paper](./Paper/Paper.pdf)
+Here's the assignment paper.
+📄 [View Assignment](./ASS01.pdf)
 
 ## 📂 Code Answer Files
 
 | File Name               | Output Screenshot         |
 |-------------------------|---------------------------|
-| [`Q1.js`](./Codes/Q1Ans.js) | ![Q1](./Outputs/1.png)|
-| [`Q2.js`](./Codes/Q2Ans.js) | ![Q1](./Outputs/2.png)|
-| [`Q3.js`](./Codes/Q3Ans.js) | ![Q1](./Outputs/3.png)|
-| [`Q4.js`](./Codes/Q4Ans.js) | ![Q1](./Outputs/4.png)|
+| [`users.js`](./Codes/users.js) [`posts.js`](./Codes/posts.js) [`comments.js`](./Codes/comments.js) [`userService.js`](./Codes/userService.js) [`userRoute.js`](./Codes/userService.js)  [`postService.js`](./Codes/postService.js) [`postRoute.js`](./Codes/postRoute.js) [`index.js`](./Codes/index.js) | ![Outputs](./Outputs/1.png) ![Outputs](./Outputs/2.png) ![Outputs](./Outputs/3.png) ![Outputs](./Outputs/4.png) ![Outputs](./Outputs/5.png) ![Outputs](./Outputs/7.png) ![Outputs](./Outputs/8.png) ![Outputs](./Outputs/9.png) ![Outputs](./Outputs/userNotFound.png) ![Outputs](./Outputs/postNotFound.png) |
 
 ---
