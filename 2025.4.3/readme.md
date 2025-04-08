@@ -41,17 +41,8 @@ In this lesson, we learn about what are promises and how to use them.
 
 | 📄 File Name         | 📘 Code Description                                                | 🖼️ Output Screenshot |
 |----------------------|--------------------------------------------------------------------|-----------------------|
-| `01-callback-read.js` | Reading file using `fs.readFile()` with callback                  | ![Screenshot](screenshots/01-callback-read.png) |
-| `02-promise-read.js`  | Reading file using Promises (`.then()` / `.catch()`)              | ![Screenshot](screenshots/02-promise-read.png)  |
-| `03-async-await.js`   | Reading multiple files using `async/await` and `Promise.allSettled()` | ![Screenshot](screenshots/03-async-await.png)   |
+| [`asyncPro.js`](./Codes/asyncPro.js) | Reading file using `fs.readFile()` with callback | ![Screenshot](./Outputs/1.png) |
+| [`promiseapp.js`](./Codes/promiseapp.js)  | Reading file using Promises (`.then()` / `.catch()`) | ![Screenshot](./Outputs/2.png)  |
+| [`asyncawait.js`](./Codes/asyncawait.js)   | Reading multiple files using `async/await` and `Promise.allSettled()`| ![Screenshot](./Outputs/3.png) |
 
 ---
-
-### 📝 To Run:
-Make sure you have Node.js installed.
-
-```bash
-node 01-callback-read.js
-node 02-promise-read.js
-node 03-async-await.js
-
