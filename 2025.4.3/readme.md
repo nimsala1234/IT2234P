@@ -1,4 +1,8 @@
-# 📘 File Handling & Promises in Node.js
+# 📅 2025-04-03 - File Handling & Promises in Node.js
+This folder contains JavaScript practicals from **April 03, 2025**.
+
+## 📜 Lesson Overview  
+In this lesson, we learn about what are promises and how to use them.
 
 ## ✅ What We Learned:
 
