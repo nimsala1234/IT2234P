@@ -13,3 +13,4 @@ Each day's folder includes code files and output screenshots.
 | 2025-03-24 | Express.js Parameters: Return Data by Reg. No, Gender, and Name via Postman | [Day 5](./2025.3.24/) |
 | 2025-03-27 | ICAE 01 | [Day 6](./2025.3.27ICAE01/) |
 | 2025-04-03 | File Handling and Promises in Node.js| [Day 7](./2025.4.3/) |
+| 2025-04-07 | Assignment 01| [Day 8 Assignment](./2025.4.7.Assignment/) |
