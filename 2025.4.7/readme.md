@@ -37,11 +37,24 @@
 
 ## 📂 Folder Table (Inside This Lesson Folder)
 
-| 📄 File Name              | 📘 Code Description                                        | 🖼️ Output Screenshot                |
-|---------------------------|------------------------------------------------------------|-------------------------------------|
-|[`studentsdb.js`](./Codes/studentsdb.js)| Contains student data as a JS array| ![Screenshot](./Outputs/1.png)  ![Screenshot](./Outputs/2.png)  ![Screenshot](./Outputs/3.png)  ![Screenshot](./Outputs/4.png)  ![Screenshot](./Outputs/5.png)  ![Screenshot](./Outputs/6.png)  ![Screenshot](./Outputs/7.png)  |
+| 📄 File Name              | 📘 Code Description                                        |
+|---------------------------|------------------------------------------------------------|
+| [`studentsdb.js`](./Codes/studentsdb.js)        | Contains student data as a JS array                     |
 | [`studentservice.js`](./Codes/studentservice.js)| Exports functions for data handling (get, find, filter) |
-| [`studentroute.js`](./Codes/studentroute.js)| Sets up routes and handles API responses| 
-| [`index.js`](./Codes/index.js)| Starts the server and mounts the student route|
+| [`studentroute.js`](./Codes/studentroute.js)    | Sets up routes and handles API responses                |
+| [`index.js`](./Codes/index.js)                  | Starts the server and mounts the student route          |
 
 ---
+
+### 🖼️ Output Screenshots
+
+| Screenshot |
+|------------|
+| ![Screenshot 1](./Outputs/1.png) |
+| ![Screenshot 2](./Outputs/2.png) |
+| ![Screenshot 3](./Outputs/3.png) |
+| ![Screenshot 4](./Outputs/4.png) |
+| ![Screenshot 5](./Outputs/5.png) |
+| ![Screenshot 6](./Outputs/6.png) |
+| ![Screenshot 7](./Outputs/7.png) |
+
