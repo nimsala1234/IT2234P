@@ -1,4 +1,4 @@
-# 🍃 MongoDB Hands-On Guide
+# 🍃 MongoDB 
 
 ## Topics
 - Database Creation
@@ -55,6 +55,8 @@
 ---
 
 ## 🖥️ 4. Insert Documents (MongoDB Shell)
+First show available databases and select **UniDB** and show the collections it has.(students)
+![Shell](Outputs/Shell.png)
 
 ### ➔ Insert One Document
 ```javascript
