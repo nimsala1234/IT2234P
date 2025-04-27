@@ -64,10 +64,12 @@ First show available databases and select **UniDB** and show the collections it 
 ### ➔ Insert One Document
 ```javascript
 db.students.insertOne({
-  regno: "2021IT006",
-  name: "Nova",
+  regno: "2021IT06",
+  name: "Jake",
   age: 24,
   gender: "Male",
   degree: "IT",
   skills: ["JS", "MongoDB", "NodeJS"]
 })
+
+![insertOne](Outputs/insertOne.png)
