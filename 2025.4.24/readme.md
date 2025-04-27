@@ -73,3 +73,25 @@ db.students.insertOne({
 })
 ```
 ![insertOne](Outputs/insertOne.png)
+
+### ➔ Insert One Document
+```javascript
+db.students.insertMany([
+  {
+    regno: "2021IT07",
+    name: "Kevin",
+    age: 24,
+    gender: "Male",
+    degree: "IT",
+    skills: ["Java", "MongoDB", "MySQL"]
+  },
+  {
+    regno: "2021IT08",
+    name: "Erica",
+    age: 20,
+    gender: "Female",
+    degree: "IT",
+    skills: ["Python", "MongoDB", "NodeJS"]
+  }
+])
+```
