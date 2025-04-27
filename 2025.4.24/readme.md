@@ -50,7 +50,7 @@
 - Click **Edit**.
 - Update values and click **Update**.
 
-> ![Update Document](path/to/5.update.png)
+> ![Update Document](Outputs/editDoc.png)
 
 ---
 
