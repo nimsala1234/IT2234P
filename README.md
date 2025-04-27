@@ -15,3 +15,4 @@ Each day's folder includes code files and output screenshots.
 | 2025-04-03 | File Handling and Promises in Node.js| [Day 7](./2025.4.3/) |
 | 2025-04-07 | Building a RESTful Student API with Express.js| [Day 8](./2025.4.7/) |
 | 2025-04-07 | Assignment 01| [Day 8 Assignment](./2025.4.7.Assignment/) |
+| 2025-04-24 | MongoDB: Database Creation, Collections, CRUD Operations & Queries| [Day 9 & 10](./2025.4.24/) |
