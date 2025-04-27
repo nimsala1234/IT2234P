@@ -39,7 +39,8 @@
 - Use **Format** button to correct formatting if needed.
 - Save.
 
-> ![Insert Document](path/to/2.insert.png)
+> ![Insert Document](Outputs/2.InsertDoc.png)
+> ![Insert Document](Outputs/3.png)
 
 
 ---
