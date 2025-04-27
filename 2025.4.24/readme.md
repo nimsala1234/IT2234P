@@ -1,10 +1,13 @@
-# 🍃 MongoDB 
+# 📅 2025-04-24 - 🍃 MongoDB 
 
-## Topics
-- Database Creation
-- Collections
-- CRUD Operations
-- Queries
+This folder contains MongoDB practicals from **April 24, 2025**.
+
+## 📜 Lesson Overview  
+In this lesson, we learned the following,
+- **Database Creation**
+- **Collections**
+- **CRUD Operations**
+- **Queries**
 
 ---
 
