@@ -29,3 +29,17 @@
 - Click **Create Database**.
 
 > ![Create DB](Outputs/1.CreateDB.png)
+
+
+
+## ✍️ 2. Inserting Documents (Compass)
+
+- Inside the collection, click **Insert Document**.
+- Add keys and values.
+- Use **Format** button to correct formatting if needed.
+- Save.
+
+> ![Insert Document](path/to/2.insert.png)
+
+
+---
