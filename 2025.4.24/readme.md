@@ -71,5 +71,5 @@ db.students.insertOne({
   degree: "IT",
   skills: ["JS", "MongoDB", "NodeJS"]
 })
-
+```
 ![insertOne](Outputs/insertOne.png)
