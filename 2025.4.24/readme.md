@@ -36,11 +36,33 @@
 
 - Inside the collection, click **Insert Document**.
 - Add keys and values.
-- Use **Format** button to correct formatting if needed.
 - Save.
 
 > ![Insert Document](Outputs/2.InsertDoc.png)
 > ![Insert Document](Outputs/3.png)
 
+---
+---
+
+## 📝 3. Editing Documents (Compass)
+
+- Find the document.
+- Click **Edit**.
+- Update values and click **Update**.
+
+> ![Update Document](path/to/5.update.png)
 
 ---
+
+## 🖥️ 4. Insert Documents (MongoDB Shell)
+
+### ➔ Insert One Document
+```javascript
+db.students.insertOne({
+  regno: "2021IT006",
+  name: "Nova",
+  age: 24,
+  gender: "Male",
+  degree: "IT",
+  skills: ["JS", "MongoDB", "NodeJS"]
+})
