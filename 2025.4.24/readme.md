@@ -24,8 +24,8 @@
 - Open **MongoDB Compass**.
 - Click **Create Database**.
 - Enter:
-  - **Database Name**: `school`
+  - **Database Name**: `uniDB`
   - **Collection Name**: `students`
 - Click **Create Database**.
 
-> ![Create DB](path/to/1.createDB.png)
+> ![Create DB](Outputs/1.CreateDB.png)
