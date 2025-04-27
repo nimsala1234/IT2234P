@@ -1,1 +1,31 @@
-This is it
+# 🍃 MongoDB Hands-On Guide
+
+## Topics
+- Database Creation
+- Collections
+- CRUD Operations
+- Queries
+
+---
+
+## 🧩 MongoDB Basic Terms
+
+| Term         | Meaning |
+|--------------|---------|
+| **Database** | Holds collections (like a folder) |
+| **Collection** | Group of documents (similar to a table) |
+| **Document** | Single record (stored in BSON format) |
+| **_id**      | Unique identifier auto-generated for every document |
+
+---
+
+## 🏗️ 1. Creating Database and Collections (Compass)
+
+- Open **MongoDB Compass**.
+- Click **Create Database**.
+- Enter:
+  - **Database Name**: `school`
+  - **Collection Name**: `students`
+- Click **Create Database**.
+
+> ![Create DB](path/to/1.createDB.png)
