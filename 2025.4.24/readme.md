@@ -74,7 +74,7 @@ db.students.insertOne({
 ```
 ![insertOne](Outputs/insertOne.png)
 
-### ➔ Insert One Document
+### ➔ Insert many documents
 ```javascript
 db.students.insertMany([
   {
@@ -95,3 +95,4 @@ db.students.insertMany([
   }
 ])
 ```
+![insertMany](Outputs/insertMany.png)
