@@ -218,4 +218,27 @@ db.students.find({ gender: "Male", degree: "IT" }).sort({ age: -1 })
 ```
 ![insertMany](Outputs/maleAge.png)
 
-# Queries using MongDB Compass
+# 💡 Projecting Data Using Compass
+
+![insertMany](Outputs/compass1.png)
+
+🔃 Sorting Data Using Compass
+![insertMany](Outputs/compass2.png)
+
+🔼 Greater Than -> $gt
+![insertMany](Outputs/compass3.png)
+
+🔽 Less Than -> $lt
+![insertMany](Outputs/compass4.png)
+
+🟰 Equal -> $eq
+![insertMany](Outputs/compass5.png)
+
+❌ Not Equal -> $ne
+![insertMany](Outputs/compass6.png)
+
+📥 Matches any in array -> $in
+![insertMany](Outputs/compass7.png)
+
+🚫📥 Doesn't matches any in array -> $nin
+![insertMany](Outputs/compass8.png)
