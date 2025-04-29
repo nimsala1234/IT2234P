@@ -116,8 +116,10 @@ Each query demonstrates specific MongoDB operations such as filtering, sorting, 
 ```js
 // Find all female students
 db.students.find({ gender: "female" })
-![insertMany](Outputs/insertMany.png)
+```
+![insertMany](Outputs/findFemale.png)
 
+```
 // Find the first student whose gender is female
 db.students.findOne({ gender: "female" })
 ![insertMany](Outputs/insertMany.png)
