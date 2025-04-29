@@ -240,5 +240,5 @@ db.students.find({ gender: "Male", degree: "IT" }).sort({ age: -1 })
 ## 📥 Matches any in array -> $in
 ![insertMany](Outputs/compass7.png)
 
-## 🚫📥 Doesn't matches any in array -> $nin
+## 🚫📥 Doesn't match any in array -> $nin
 ![insertMany](Outputs/compass8.png)
