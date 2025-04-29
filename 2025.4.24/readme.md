@@ -155,5 +155,67 @@ db.students.find({ age: { $ne: 23 } })
 ![insertMany](Outputs/notAge1.png)
 ![insertMany](Outputs/notAge2.png)
 
+## 🧠 Skill-Based Queries
+```
+// Students with MongoDB skill
+db.students.find({ skills: { $in: ["MongoDB"] } })
+```
+![insertMany](Outputs/mongoSkill.png)
+![insertMany](Outputs/mongoSkill2.png)
+
+```
+// Students with either Matlab or MongoDB
+db.students.find({ skills: { $in: ["Matlab", "MongoDB"] } })
+```
+![insertMany](Outputs/skillsOr1.png)
+![insertMany](Outputs/skillsOr2.png)
+
+```
+// Students without both Matlab and MongoDB
+db.students.find({ skills: { $nin: ["Matlab", "MongoDB"] } })
+```
+![insertMany](Outputs/None.png)
+```
+// Students with Java skill, sorted by descending age
+db.students.find({ skills: { $in: ["MongoDB"] } }).sort({ age: -1 })
+```
+![insertMany](Outputs/des1.png)
+![insertMany](Outputs/des2.png)
+
+## 📊 Sorting Queries
+
+```
+// Sort all students by GPA (ascending)
+db.students.find().sort({ GPA: 1 })
+```
+![insertMany](Outputs/asc1.png)
+![insertMany](Outputs/asc2.png)
+![insertMany](Outputs/asc3.png)
+
+```
+// Sort all students by GPA (descending)
+db.students.find().sort({ gpa: -1 })
+```
+![insertMany](Outputs/gpa1.png)
+![insertMany](Outputs/gpa2.png)
+![insertMany](Outputs/gpa3.png)
+
+```
+// IT students sorted by GPA (descending)
+db.students.find({ degree: "Agri" }).sort({ gpa: -1 })
+```
+![insertMany](Outputs/gpa4.png)
+
+```
+// Male students sorted by age (descending)
+db.students.find({ gender: "Male" }).sort({ age: -1 })
+```
+![insertMany](Outputs/maleAge1.png)
+
+```
+// Male IT students sorted by age (descending)
+db.students.find({ gender: "Male", degree: "IT" }).sort({ age: -1 })
+```
+![insertMany](Outputs/maleAge.png)
 
 # Queries using MongDB Compass
