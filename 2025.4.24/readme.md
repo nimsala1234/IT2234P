@@ -97,6 +97,15 @@ db.students.insertMany([
 ```
 ![insertMany](Outputs/insertMany.png)
 
+### ➔ Adding a field to an existing document
+
+- Find the document.
+- Click **Edit**.
+- Click **Add a field** (the + mark).
+- Add the new field and the value and click **Update**.
+  
+![Add a new field](Outputs/addField.png)
+
 # 📚 MongoDB Query Collection – Student Database
 
 Each query demonstrates specific MongoDB operations such as filtering, sorting, array handling, and combined conditions.
