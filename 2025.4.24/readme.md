@@ -122,7 +122,8 @@ db.students.find({ gender: "female" })
 ```
 // Find the first student whose gender is female
 db.students.findOne({ gender: "female" })
-![insertMany](Outputs/insertMany.png)
+```
+![insertMany](Outputs/findOne.png)
 
 // Find one student by exact name
 db.students.findOne({ name: "Dinithi" })
