@@ -222,23 +222,23 @@ db.students.find({ gender: "Male", degree: "IT" }).sort({ age: -1 })
 
 ![insertMany](Outputs/compass1.png)
 
-🔃 Sorting Data Using Compass
+## 🔃 Sorting Data Using Compass
 ![insertMany](Outputs/compass2.png)
 
-🔼 Greater Than -> $gt
+## 🔼 Greater Than -> $gt
 ![insertMany](Outputs/compass3.png)
 
-🔽 Less Than -> $lt
+## 🔽 Less Than -> $lt
 ![insertMany](Outputs/compass4.png)
 
-🟰 Equal -> $eq
+## 🟰 Equal -> $eq
 ![insertMany](Outputs/compass5.png)
 
-❌ Not Equal -> $ne
+## ❌ Not Equal -> $ne
 ![insertMany](Outputs/compass6.png)
 
-📥 Matches any in array -> $in
+## 📥 Matches any in array -> $in
 ![insertMany](Outputs/compass7.png)
 
-🚫📥 Doesn't matches any in array -> $nin
+## 🚫📥 Doesn't matches any in array -> $nin
 ![insertMany](Outputs/compass8.png)
