@@ -1,244 +1,88 @@
-# 📅 2025-04-24 - 🍃 MongoDB 
+# 📅 2025-04-28 - 🍃 Delete & Update Queries in MongoDB Shell
 
-This folder contains MongoDB practicals from **April 24, 2025**.
+This folder contains MongoDB practicals from **April 28, 2025**.
 
 ## 📜 Lesson Overview  
 In this lesson, we learned the following,
-- **Database Creation**
-- **Collections**
-- **CRUD Operations**
-- **Queries**
-
+- **Update query**
+- **Delete Query**
 ---
 
-## 🧩 MongoDB Basic Terms
+## 1. Delete 
 
-| Term         | Meaning |
-|--------------|---------|
-| **Database** | Holds collections (like a folder) |
-| **Collection** | Group of documents (similar to a table) |
-| **Document** | Single record (stored in BSON format) |
-| **_id**      | Unique identifier auto-generated for every document |
+### Delete a database
+First Creata a database called **"SampleDB"** and a collection called **"sample"**
+> ![Create DB](Outputs/1.png)
+> ![Delete](Outputs/2.png)
+> ![CheckDB](Outputs/3.png)
 
----
+### Delete a collection
+Create another database now called "checkDB" and collections sampledata1, sampledata2
+![CheckDB](Outputs/4.png)
 
-## 🏗️ 1. Creating Database and Collections (Compass)
+And use **db.sampledata1.drop()** to delete a specific collection
+![CheckDB](Outputs/5.png)
 
-- Open **MongoDB Compass**.
-- Click **Create Database**.
-- Enter:
-  - **Database Name**: `uniDB`
-  - **Collection Name**: `students`
-- Click **Create Database**.
-
-> ![Create DB](Outputs/1.CreateDB.png)
-
-
-
-## ✍️ 2. Inserting Documents (Compass)
-
-- Inside the collection, click **Insert Document**.
-- Add keys and values.
-- Save.
-
-> ![Insert Document](Outputs/2.InsertDoc.png)
-> ![Insert Document](Outputs/3.png)
-
----
----
-
-## 📝 3. Editing Documents (Compass)
-
-- Find the document.
-- Click **Edit**.
-- Update values and click **Update**.
-
-> ![Update Document](Outputs/editDoc.png)
-
----
-
-## 🖥️ 4. Insert Documents (MongoDB Shell)
-First show available databases and select **UniDB** and show the collections it has.(students)
-![Shell](Outputs/Shell.png)
-
-### ➔ Insert One Document
+Now, create a collection called **"degrees"** and add some documents
+![CheckDB](Outputs/6.png)
 ```javascript
-db.students.insertOne({
-  regno: "2021IT06",
-  name: "Jake",
-  age: 24,
-  gender: "Male",
-  degree: "IT",
-  skills: ["JS", "MongoDB", "NodeJS"]
-})
+db.degrees.deleteOne({_id:ObjectId('681099adbebe01a645f7f029')})
 ```
-![insertOne](Outputs/insertOne.png)
+![CheckDB](Outputs/7.png)
 
-### ➔ Insert many documents
+### Projections
+
 ```javascript
-db.students.insertMany([
-  {
-    regno: "2021IT07",
-    name: "Kevin",
-    age: 24,
-    gender: "Male",
-    degree: "IT",
-    skills: ["Java", "MongoDB", "MySQL"]
-  },
-  {
-    regno: "2021IT08",
-    name: "Erica",
-    age: 20,
-    gender: "Female",
-    degree: "IT",
-    skills: ["Python", "MongoDB", "NodeJS"]
-  }
-])
+db.degrees.find().projection(['name'])
 ```
-![insertMany](Outputs/insertMany.png)
+![CheckDB](Outputs/8.png)
 
-### ➔ Adding a field to an existing document
-
-- Find the document.
-- Click **Edit**.
-- Click **Add a field** (the + mark).
-- Add the new field and the value and click **Update**.
-  
-![Add a new field](Outputs/addField.png)
-
-# 📚 MongoDB Query Collection – Student Database
-
-Each query demonstrates specific MongoDB operations such as filtering, sorting, array handling, and combined conditions.
----
-
-# Queries using MongDB Shell
-
-## 📌 Basic Retrieval 
-
-```js
-// Find all female students
-db.students.find({ gender: "female" })
+project only the names in a proper way
+```javascript
+db.degrees.find({},{name:1,_id:0}).pretty()
 ```
-![insertMany](Outputs/findFemale.png)
+![CheckDB](Outputs/9.png)
 
+delete the degree programs which are less than 3 years in duration
+```javascript
+db.degrees.deleteMany({duration:{$lt:4}})
 ```
-// Find the first student whose gender is female
-db.students.findOne({ gender: "female" })
-```
-![insertMany](Outputs/findOne.png)
+![CheckDB](Outputs/10.png)
+![CheckDB](Outputs/11.png)
 
-```
-// Find one student by exact name
-db.students.findOne({ name: "Yumi" })
-```
-![insertMany](Outputs/byName.png)
+## 2. Update 
 
-## 🔍 Comparison Operators
+### Update a document
+Add a new document which we later need to update.
+![CheckDB](Outputs/12.png)
 
+```javascript
+db.degrees.updateOne({_id:ObjectId('68109de0bebe01a645f7f031')},{$set:{name:'BIT',duration:3}})
 ```
-// Students older than 23
-db.students.find({ age: { $gt: 23 } })
-```
-![insertMany](Outputs/older1.png)
-![insertMany](Outputs/older2.png)
+![CheckDB](Outputs/13.png)
 
-```
-// Students exactly 23 years old
-db.students.find({ age: { $eq: 23 } })
-```
-![insertMany](Outputs/exact.png)
+Check whether the updated one is available or not.
 
+```javascript
+db.degrees.findOne({_id:ObjectId('68109de0bebe01a645f7f031')})
 ```
-// Students NOT 23 years old
-db.students.find({ age: { $ne: 23 } })
-```
-![insertMany](Outputs/notAge1.png)
-![insertMany](Outputs/notAge2.png)
+![CheckDB](Outputs/14.png)
 
-## 🧠 Skill-Based Queries
-```
-// Students with MongoDB skill
-db.students.find({ skills: { $in: ["MongoDB"] } })
-```
-![insertMany](Outputs/mongoSkill.png)
-![insertMany](Outputs/mongoSkill2.png)
+Increase the duration of degrees with a duration of equal or greater than 4 years.
 
+```javascript
+db.degrees.updateMany({duration:{$gte:4}},{$inc:{duration:1}})
 ```
-// Students with either Matlab or MongoDB
-db.students.find({ skills: { $in: ["Matlab", "MongoDB"] } })
+![CheckDB](Outputs/15.png)
+
+Add a new element(skill) into this particular student in student collection
+```javascript
+db.students.updateOne({regNo:"2021BIO01"},{$push:{skills:'Coding'}})
 ```
-![insertMany](Outputs/skillsOr1.png)
-![insertMany](Outputs/skillsOr2.png)
+![CheckDB](Outputs/16.png)
 
+Check whether it's updated correctly.
+```javascript
+db.students.findOne({regNo:'2021BIO01'})
 ```
-// Students without both Matlab and MongoDB
-db.students.find({ skills: { $nin: ["Matlab", "MongoDB"] } })
-```
-![insertMany](Outputs/None.png)
-```
-// Students with Java skill, sorted by descending age
-db.students.find({ skills: { $in: ["MongoDB"] } }).sort({ age: -1 })
-```
-![insertMany](Outputs/des1.png)
-![insertMany](Outputs/des2.png)
-
-## 📊 Sorting Queries
-
-```
-// Sort all students by GPA (ascending)
-db.students.find().sort({ GPA: 1 })
-```
-![insertMany](Outputs/asc1.png)
-![insertMany](Outputs/asc2.png)
-![insertMany](Outputs/asc3.png)
-
-```
-// Sort all students by GPA (descending)
-db.students.find().sort({ gpa: -1 })
-```
-![insertMany](Outputs/gpa1.png)
-![insertMany](Outputs/gpa2.png)
-![insertMany](Outputs/gpa3.png)
-
-```
-// IT students sorted by GPA (descending)
-db.students.find({ degree: "Agri" }).sort({ gpa: -1 })
-```
-![insertMany](Outputs/gpa4.png)
-
-```
-// Male students sorted by age (descending)
-db.students.find({ gender: "Male" }).sort({ age: -1 })
-```
-![insertMany](Outputs/maleAge1.png)
-
-```
-// Male IT students sorted by age (descending)
-db.students.find({ gender: "Male", degree: "IT" }).sort({ age: -1 })
-```
-![insertMany](Outputs/maleAge.png)
-
-# 💡 Projecting Data Using Compass
-
-![insertMany](Outputs/compass1.png)
-
-## 🔃 Sorting Data Using Compass
-![insertMany](Outputs/compass2.png)
-
-## 🔼 Greater Than -> $gt
-![insertMany](Outputs/compass3.png)
-
-## 🔽 Less Than -> $lt
-![insertMany](Outputs/compass4.png)
-
-## 🟰 Equal -> $eq
-![insertMany](Outputs/compass5.png)
-
-## ❌ Not Equal -> $ne
-![insertMany](Outputs/compass6.png)
-
-## 📥 Matches any in array -> $in
-![insertMany](Outputs/compass7.png)
-
-## 🚫📥 Doesn't match any in array -> $nin
-![insertMany](Outputs/compass8.png)
+![CheckDB](Outputs/17.png)
