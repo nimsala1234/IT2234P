@@ -96,3 +96,23 @@ db.students.insertMany([
 ])
 ```
 ![insertMany](Outputs/insertMany.png)
+
+# 📚 MongoDB Query Collection – Student Database
+
+Each query demonstrates specific MongoDB operations such as filtering, sorting, array handling, and combined conditions.
+---
+
+## 📌 Basic Retrieval
+
+```js
+// Find all female students
+db.students.find({ gender: "female" })
+![insertMany](Outputs/insertMany.png)
+
+// Find the first student whose gender is female
+db.students.findOne({ gender: "female" })
+![insertMany](Outputs/insertMany.png)
+
+// Find one student by exact name
+db.students.findOne({ name: "Dinithi" })
+![insertMany](Outputs/insertMany.png)
