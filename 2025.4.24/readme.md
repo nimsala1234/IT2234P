@@ -152,7 +152,8 @@ db.students.find({ age: { $eq: 23 } })
 // Students NOT 23 years old
 db.students.find({ age: { $ne: 23 } })
 ```
-![insertMany](Outputs/notAge.png)
+![insertMany](Outputs/notAge1.png)
+![insertMany](Outputs/notAge2.png)
 
 
 # Queries using MongDB Compass
