@@ -125,6 +125,8 @@ db.students.findOne({ gender: "female" })
 ```
 ![insertMany](Outputs/findOne.png)
 
+```
 // Find one student by exact name
-db.students.findOne({ name: "Dinithi" })
-![insertMany](Outputs/insertMany.png)
+db.students.findOne({ name: "Yumi" })
+```
+![insertMany](Outputs/byName.png)
