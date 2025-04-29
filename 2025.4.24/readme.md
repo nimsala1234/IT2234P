@@ -111,7 +111,9 @@ db.students.insertMany([
 Each query demonstrates specific MongoDB operations such as filtering, sorting, array handling, and combined conditions.
 ---
 
-## 📌 Basic Retrieval
+# Queries using MongDB Shell
+
+## 📌 Basic Retrieval 
 
 ```js
 // Find all female students
@@ -130,3 +132,27 @@ db.students.findOne({ gender: "female" })
 db.students.findOne({ name: "Yumi" })
 ```
 ![insertMany](Outputs/byName.png)
+
+## 🔍 Comparison Operators
+
+```
+// Students older than 23
+db.students.find({ age: { $gt: 23 } })
+```
+![insertMany](Outputs/older1.png)
+![insertMany](Outputs/older2.png)
+
+```
+// Students exactly 23 years old
+db.students.find({ age: { $eq: 23 } })
+```
+![insertMany](Outputs/exact.png)
+
+```
+// Students NOT 23 years old
+db.students.find({ age: { $ne: 23 } })
+```
+![insertMany](Outputs/notAge.png)
+
+
+# Queries using MongDB Compass
