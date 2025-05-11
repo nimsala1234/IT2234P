@@ -1,7 +1,7 @@
 # 📅 2025-05-07 - Assignment 02
 
 Here's the assignment paper.
-📄 ![View Assignment](./Assignment 2.pdf)
+📄 [View Assignment](./Assignment2.pdf)
 
 ## 📂 Code Answer Files
 
