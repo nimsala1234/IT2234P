@@ -1,15 +1,15 @@
 # 📅 2025-05-07 - Assignment 02
 
 Here's the assignment paper.
-📄 [View Assignment](./Assignment 2.pdf)
+📄 ![View Assignment](./Assignment 2.pdf)
 
 ## 📂 Code Answer Files
 
 |  Question        | Output Screenshot         |
 |-------------------------|---------------------------|
 | Create a Database Library |![Outputs](./Outputs/1.png)|
-| Create a collection named books |![Outputs](./Outputs/2.png)|
-| Insert some sample documents into the ‘books’ collection|![Outputs](./Outputs/3.png)|
+| Create a collection named books |![Outputs](./Outputs/1.png|
+| Insert some sample documents into the ‘books’ collection|![Outputs](./Outputs/2.png) ![Outputs](./Outputs/3.png)|
 | Find all documents in the ‘books’ collection |![Outputs](./Outputs/4.png)|
 | Find books published after 1950 |![Outputs](./Outputs/5.png)|
 | Find a book by title |![Outputs](./Outputs/6.png)|
