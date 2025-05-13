@@ -17,4 +17,5 @@ Each day's folder includes code files and output screenshots.
 | 2025-04-07 | Assignment 01| [Day 8 Assignment](./2025.4.7.Assignment/) |
 | 2025-04-24 | MongoDB: Database Creation, Collections, CRUD Operations & Queries| [Day 9 & 10](./2025.4.24/) |
 | 2025-04-28 | MongoDB: Delete & Update Queries, Exercise| [Day 11](./2025.4.28/) |
-| 2025-05-07 | Assignment 02| [Day 12 Asssignment](./2025.5.7/) |
+| 2025-05-07 | Assignment 02| [Day 12 Asssignment 02](./2025.5.7/) |
+| 2025-05-07 | Assignment 04| [Day 12 Asssignment 04](./2025.5.7-Assignment04/) |
