@@ -5,7 +5,7 @@ Here's the ICAE paper.
 
 ## 📂 Code Answer Files
 
-| File Name               | Output Screenshot         |
+| Questions              | Output Screenshot         |
 |-------------------------|---------------------------|
 | Create the students and grades collections and insert the sample documents into both collections. | ![Q1](./Outputs/1.png) ![Q1](./Outputs/2.png) ![Q1](./Outputs/3-1.png) ![Q1](./Outputs/3-2.png) ![Q1](./Outputs/3-3.png) ![Q1](./Outputs/3-4.png) ![Q1](./Outputs/3-5.png) ![Q1](./Outputs/3-6.png)|
 | Show both collections in table view.  | ![Q1](./Outputs/2-1.png) ![Q1](./Outputs/2-2.png)|
