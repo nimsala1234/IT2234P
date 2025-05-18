@@ -1,7 +1,7 @@
 # 📅 2025-05-15 - ICAE 02
 
 Here's the ICAE paper.
-📄 [View ICAE01 Paper](./Paper/IT2234_ICAE02.pdf)
+📄 [View ICAE02 Paper](./Paper/IT2234_ICAE02.pdf)
 
 ## 📂 Code Answer Files
 
