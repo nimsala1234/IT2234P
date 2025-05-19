@@ -16,7 +16,7 @@ In this lesson, we learned the following,
 
 ### Put data into a collection via POST request
 
-![output1](Outputs/post-postnman.png)
+![output1](Outputs/post-postman.png)
 ![output1](Outputs/post-mongodb.png)
 
 ### Update data in a collection via PUT request
