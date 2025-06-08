@@ -14,7 +14,6 @@ In this lesson, we learned the following,
 ![output1](Outputs/1-4.png)
 ![output1](Outputs/1-5.png)
 ![output1](Outputs/1-6.png)
-![output1](Outputs/1-7.png)
 ![output1](Outputs/1-8.png)
 ![output1](Outputs/1-9.png)
 ![output1](Outputs/1-10.png)
