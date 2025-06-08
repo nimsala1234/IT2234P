@@ -29,3 +29,20 @@ In this lesson, we learned the following,
 
 ### Get the etf details
 ![output1](Outputs/4.png)
+
+### Give the ID of a particular department and get the employee details
+![output1](Outputs/dep-emp.png)
+
+### Get the no of employees in each department
+![output1](Outputs/empcount.png)
+
+### Get the no of projects for each employee
+![output1](Outputs/projectcount.png)
+
+### Get the details of the employees along with the projects
+![output1](Outputs/5-1.png)
+![output1](Outputs/5-2.png)
+![output1](Outputs/5-3.png)
+
+### Get the no of employees for each distinct positions
+![output1](Outputs/positionInfo.png)
