@@ -19,6 +19,7 @@ Each day's folder includes code files and output screenshots.
 | 2025-04-28 | MongoDB: Delete & Update Queries, Exercise| [Day 11](./2025.4.28/) |
 | 2025-05-07 | Assignment 02| [Day 12 Asssignment 02](./2025.5.7/) |
 | 2025-05-07 | Assignment 04| [Day 12 Asssignment 04](./2025.5.7-Assignment04/) |
-| 2025-05-15 | ICAE 02| [Day 13](./2025.5.15/) |
-| 2025-05-17 | Mongoose - OOP library , Get Requests | [Day 14](./2025.5.17/) |
-| 2025-05-19 | Mongoose - OOP library & Post, Put, Delete requests & Connecting collections using foreign keys| [Day 15](./2025.5.19/) |
+| 2025-05-15 | ICAE 02| [Day 12](./2025.5.15/) |
+| 2025-05-17 | Mongoose - OOP library , Get Requests | [Day 13](./2025.5.17/) |
+| 2025-05-19 | Mongoose - OOP library & Post, Put, Delete requests & Connecting collections using foreign keys| [Day 14](./2025.5.19/) |
+| 2025-05-22 | Using sub routes for get requests| [Day 15](./2025.5.22/) |
